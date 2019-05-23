@@ -5,3 +5,6 @@ confused a b
 
 boustrophedon :: [String] -> [String]
 boustrophedon xs = map (\x -> confused x (length x)) xs
+
+test :: Int -> Bool
+test a = even a
